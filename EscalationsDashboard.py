@@ -30,7 +30,7 @@ import PIL.Image  # Yeh bhi zaroori hai PDF ka format theek karne ke liye
 
 # Google Sheets API setup
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = Credentials.from_service_account_file("secrets.json", scopes=scope)
+creds = Credentials.from_service_account_file("creds.json", scopes=scope)
 client = gspread.authorize(creds)
 
 # Google Sheet details
