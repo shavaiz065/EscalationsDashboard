@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "escalationsdashboard",
+  "private_key_id": "2ac4c78faf768c1d26fb105b03780a5db86ada07",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDEU1D5AjViuzw\ntI2lr1F1SNOJn7edpxDjaPjxX3Q7u3yoRAzCMzyWCT49NGG8kulpETLACi7CCqDp\nmyaMreHBWjwU8KAiTdKmCWbtbFjCR7xmLJIzucNJJ+Idurf8nFjApJfNAk4uihLW\nLqtDFcsIPFfA8d26TxoR/lPl0rVHAmuG5w8TUaR5kumtlTKXO0dV94N1sZ4E/SDQ\ngw5vpYWTKQ5DvwbzBe8mJ5PEcx04e3EfXnU+fU9DnJ8ERgGA5zVheNQUkVK0am3A\nVfWywQBEuTyi4tCozKpHbNKj1s15RoGs2xLsDe+H3RfcO8JnLtfCWu8H9ekD/+jO\ntA79rbxfAgMBAAECggEAAL3JBVE/MDSTLKq6//CzazIMcgyq/Ogu/prVBs09/1hn\nbKpJivuv3eb3O82ZqTSYTTZsBStAKqufhxPBhGSj7O76yZ5xWe29EtoKcFCzmV6Q\n2oUgaowNZwT82xR/XvAwUeBAjEwgchT6HKKzxTXbNQm79RKxrPYXSQ84mWfuq7l7\nRofUXPxLJK1WkUw6RYM6WSz3KIukrNoIBeBBOaUuhrNkiaSpaQKaxcwjqB5DKBvr\nhVz7xmaYyamrMlG1q86Ecqkmd1mSZzS41GwZsp0hGHKesxGuGgUIheULv2kwkzIs\n2UaInpwt32naDesIW1ihq6Zo1D3jSxwWunOnxuQ0dQKBgQD87d5MKmKtkXxbG5B1\ne+3TC6fAR1Q01g94otWqQ/zQDuIPG0b52DH7A4QY+zzQwFY4vANWjzQIFtv9G9H6\n7pOv9m6uUfnFwjsbBNse8qUD3LbiEW3rRFqtPapfu1pq+6pSNWj9hgICjFCqVIRw\nWRyqCUrff4/8J75yFlP6P+2vFQKBgQDFb5fiTTRuFxfY38F+BBqSyI60C9fchjo2\nHMzIVrPpitI9vp53TqTlsyMyR8pQyUOgpAfMSNtBLnxaj38fE1gID8Gz5HiHhXmC\nc3Uizx35K5ZIF+5L+ATGkHrLtkKx0s8EM7sFBqqYKnNaT8HnSVRPDs2kHgQsSzv6\nKm+OkBq6owKBgG6X08uZ/OvH4Yg01UWJmsPdJMx+Y+N2de1ZxfNdJv4Sg+X3F2HH\nlpMbRndl44GjmA/Wpd8DXszqseZKc9Y0237lUiAG2CAQfaeix+0QS/cUWyMeW+Gz\nUbLOc+DIGxEMWbz4fZ/dKKPUlrDjo8U8Mbxns8VmEZ9AAZYBDVcu/M7BAoGBAIUi\noBfxGdbW6bTMBe1VFRo/9cLBbbl+JgjRWOILXVyxyN3sCW3IcXeXWbeRI4NghKLx\nmXSO+JK2pxJmS0GISMd+4I7PFNvGDM8Dzkw/wCWC198bjAxcXdQMH1H5QHYrAoAB\n5i4YdbcQgSK4P7gYAash/1eZChVYUkR6kyleUTfjAoGAZqn9TJbvdcvUb8gLicwD\nZTb8y5uBVvo9tp7DTZIPtLPHxUhdeuygp/lFY9a13JlpDLJOoxHEntCtGffrfegE\n8CaPPuF2sNDmqIlWRUsb9P099sEBg57tIecsjdzzyBX220wY4RtFvLOli73bmttS\nkt86cS5A2hM8ugQbKdvhy3E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "escalationsdashboard@escalationsdashboard.iam.gserviceaccount.com",
+  "client_id": "107579258986549665016",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/escalationsdashboard%40escalationsdashboard.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
