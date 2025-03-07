@@ -2,3 +2,5 @@ echo ".streamlit/creds.json.json" >> .gitignore
 git rm --cached .streamlit/creds.json.json
 git commit -m "Removed creds.json.json from tracking"
 git push origin main
+creds.json
+.streamlit/secrets.toml*

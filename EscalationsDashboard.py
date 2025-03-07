@@ -24,8 +24,13 @@ import matplotlib.pyplot as plt  # Yeh line yahan add kar di hai 🔥
 from io import BytesIO
 from matplotlib.backends.backend_pdf import PdfPages
 import datetime
-from google.oauth2.service_account import Credentials
+from google.oauth2 import service_account
 import PIL.Image  # Yeh bhi zaroori hai PDF ka format theek karne ke liye
+# Access secrets
+gcp_creds = st.secrets["gcp_service_account"]
+
+# Use creds from Streamlit secrets
+creds = service_account.Credentials.from_service_account_info(gcp_creds)
 
 
 # Google Sheets API setup
