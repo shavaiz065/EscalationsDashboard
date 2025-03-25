@@ -169,8 +169,30 @@ def login():
         <p class="title">🔐 DMAT Dashboard Login</p>
     </div>
     """
+    # Custom HTML and CSS to fix input text color
+    login_html = """
+    <style>
+        /* Ensure input text color is black */
+        input[type="text"], input[type="password"] {
+            color: black !important;
+            background-color: white !important;
+            border: 1px solid #ccc !important;
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        /* Optional: Improve error message styling */
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    """
+
     st.markdown(login_html, unsafe_allow_html=True)
 
+    # Login Form
     username = st.text_input("Username", placeholder="Enter your username").strip().lower()
     password = st.text_input("Password", placeholder="Enter your password", type="password")
 
