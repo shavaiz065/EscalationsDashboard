@@ -1495,17 +1495,22 @@ if uploaded_file is not None:
             if not df_filtered.empty:
                 insights = generate_insights(df_filtered)
 
+                # Top accounts by escalation - define this FIRST
+                top_accounts = df_filtered["Employer Name"].value_counts().head(10).reset_index()
+                top_accounts.columns = ["Account Name", "Escalation Count"]
+
                 # Display insights
                 st.markdown("### Key Insights")
 
                 for i, insight in enumerate(insights):
+                    # Replace the insight about top account dynamically based on current top_accounts
+                    if "Ohio Masonic Home" in insight or "Unknown" in insight:
+                        insight = f"{top_accounts.iloc[0]['Account Name']} has the most escalations with {top_accounts.iloc[0]['Escalation Count']} escalations"
+
                     st.markdown(f"**{i + 1}. {insight}**")
 
-                # Top accounts by escalation
+                # Top accounts chart
                 st.markdown("### Top Accounts by Escalation Count")
-
-                top_accounts = df_filtered["Account name"].value_counts().head(10).reset_index()
-                top_accounts.columns = ["Account Name", "Escalation Count"]
 
                 fig_accounts = px.bar(top_accounts, x="Account Name", y="Escalation Count",
                                       title="Top 10 Accounts by Escalation Count",
